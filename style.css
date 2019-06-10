@@ -1,0 +1,210 @@
+@font-face {
+  font-family: Bebasneue;
+  src: url("BebasNeue-Regular.ttf");
+}
+@import url("https://fonts.googleapis.com/css?family=Fresca&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900i&display=swap");
+@font-face {
+  /* font-family: ff-tisa-sans-web-pro, sans-serif; */
+  font: "Alegreya" #ff4500;
+  font-style: normal;
+  font-weight: 100;
+}
+
+body {
+  margin: 0 auto;
+}
+.intro p {
+  font-size: 40px;
+  font-family: Bebasneue;
+  color: white;
+}
+
+.container {
+  margin: auto 10%;
+  color: navy;
+}
+
+.head {
+  background-image: url("background.jpg");
+  position: static;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#name {
+  font-size: 50px;
+  display: inline-flex;
+  padding: 0px;
+  margin: 0 0;
+  color: white;
+}
+
+.navigation {
+  font-size: 40px;
+  font-style: italic;
+  display: block;
+  font-family: Bebasneue;
+  width: 100%;
+  background: #13176e;
+  /* background: #ffff; */
+  text-decoration: none;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  padding-top: 15px;
+}
+
+.menu {
+  float: right;
+  display: inline-flex;
+  margin-right: 40px;
+
+  /* opacity: 20%; */
+  /* background: transparent; */
+  padding: 0;
+}
+
+.menu:hover {
+  border: 1px grey solid;
+  /* height: 65px; */
+  display: block;
+}
+
+.menu a {
+  text-decoration: none;
+  padding-right: 30px;
+  color: white;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+@keyframes colorChange {
+  0% {
+  }
+  100% {
+    color: #ffff;
+    background: #457eac;
+  }
+}
+
+.navigation .menu a:hover,
+.navigation header:hover {
+  animation: colorChange;
+  animation-duration: 2s;
+  animation-direction: forwards;
+  background: #9191e9;
+  height: 70px;
+  padding: 10px;
+
+  /* color: #ffff; */
+}
+.navigation .menu a:hover {
+  text-decoration: none;
+  background: #9b9b9b;
+  height: 70px;
+}
+.in {
+  border: 2px black dotted;
+}
+
+.intro {
+  margin-top: 70px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.intro img {
+  margin-top: 150px;
+}
+
+.intro p {
+  padding-top: 10px;
+}
+
+.content {
+  margin: 80px 0px;
+}
+
+#exptitle h2 {
+  font-size: 50px;
+  font-family: Bebasneue;
+}
+
+.portList {
+  width: 30%;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+  /* border: 1px black dotted; */
+}
+.portList img {
+  width: 100%;
+}
+
+.portList p {
+  font-size: 30px;
+  font-family: Bebasneue;
+  color: #13269c;
+}
+
+#more,
+#lmore {
+  background-color: #13269c;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  font-family: Bebasneue;
+  text-decoration: none;
+  float: right;
+}
+#more a,
+#lmore a {
+  font-size: 30px;
+  color: white;
+  font-family: Bebasneue;
+  text-decoration: none;
+}
+
+/* last content with sticky background again */
+
+.lastContent {
+  background-image: url("background.jpg");
+  position: static;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.lastContent p {
+  font-size: 30px;
+  font-family: Bebasneue;
+  color: white;
+  text-align: center;
+}
+.lastContent h2 {
+  font-size: 50px;
+  font-family: Bebasneue;
+  color: white;
+}
+
+/* this is the footer section */
+.footer {
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 20px;
+  /* padding: 20px 0px; */
+  font-family: Bebasneue;
+  font-size: 40px;
+}
+.footer .left {
+  float: left;
+}
+
+.footer .right {
+  float: right;
+}
